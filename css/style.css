@@ -1,0 +1,212 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+
+@font-face {
+	font-family: "Gotham";
+	src: url("../fonts/GothamOffice-BoldItalic.woff2") format("woff2"),
+		url("../fonts/GothamOffice-BoldItalic.woff") format("woff");
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "GrandHotel";
+	src: url("../fonts/GrandHotel-Regular.woff2") format("woff2"), url("../fonts/GrandHotel-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Facon";
+	src: url("../fonts/Facon.woff2") format("woff2"), url("//fonts/Facon.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Hisoekha";
+	src: url("../fonts/HisoekhaRegular.woff2") format("woff2"), url("//fonts/HisoekhaRegular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Klute";
+	src: url("../fonts/Klute-White.woff2") format("woff2"), url("//fonts/Klute-White.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Marvel";
+	src: url("../fonts/Marvel-Regular.woff2") format("woff2"), url("//fonts/Marvel-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "MILONER";
+	src: url("../fonts/MILONER-Black.woff2") format("woff2"), url("//fonts/MILONER-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "MILONER";
+	src: url("../fonts/MILONER-Regular.woff2") format("woff2"), url("//fonts/MILONER-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Ustroke";
+	src: url("../fonts/Ustroke-Regular.woff2") format("woff2"), url("//fonts/Ustroke-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+.header h1 {
+	color: red;
+	font-size: 35px;
+	font-family: "MILONER";
+	font-weight: 900;
+	text-shadow: 10px 10px 10px;
+	text-transform: uppercase;
+	margin: 30px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+.header img {
+	width: 800px;
+}
+img {
+	margin: 30px;
+}
+
+.main {
+	font-size: 24px;
+}
+.section1 {
+	font-family: "Facon";
+	color: blue;
+	text-align: justify;
+	background-color: antiquewhite;
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	padding-top: 30px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+}
+.section2 {
+	font-family: "Klute";
+	color: rgb(255, 255, 255);
+	text-align: justify;
+	background-color: #77b5e4;
+	margin-left: 40px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+}
+.section3 {
+	font-family: "Marvel";
+	text-align: center;
+	color: green;
+	margin-bottom: 50px;
+}
+.section4 {
+	text-align: right;
+	font-family: "Hisoekha";
+	color: brown;
+	margin-left: 50%;
+}
+.section5 {
+	font-family: "Redressed";
+	font-size: 30px;
+	text-transform: capitalize;
+	font-weight: 400;
+	color: #568291;
+	margin-right: 50%;
+}
+.section6 {
+	text-decoration: underline;
+	color: blueviolet;
+	padding-top: 10%;
+	margin-bottom: 40px;
+}
+.section7 {
+	text-decoration: overline;
+	color: chartreuse;
+	padding-bottom: 10%;
+}
+.section8 {
+	text-decoration: line-through;
+	color: crimson;
+	text-align: center;
+	max-width: 50%;
+	margin: 0 auto;
+}
+.section9 {
+	text-shadow: 5px 5px 50px #568291;
+	text-transform: uppercase;
+	line-height: 1.5;
+	color: gold;
+	max-width: 70%;
+	margin: 0 auto;
+}
+.section10 {
+	text-indent: 100px;
+	color: darkblue;
+	text-shadow: 10px 10px 40px #e20808;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+.section11 {
+	letter-spacing: 5px;
+	color: darkorchid;
+	text-shadow: 10px -15px 10px #f7f8a1;
+	text-transform: lowercase;
+	line-height: 2;
+}
+
+.section12 {
+	word-spacing: 20px;
+	color: chocolate;
+	margin: 10%;
+}
+.section13 {
+	letter-spacing: 5px;
+	color: darkorchid;
+	text-shadow: -20px -15px 5px #f7f8a1;
+	text-transform: capitalize;
+	line-height: 2;
+	padding: 10%;
+}
+.section14 {
+	letter-spacing: 5px;
+	color: rgb(79, 252, 11);
+	text-shadow: -10px -15px 10px #e75555;
+	text-transform: lowercase;
+	line-height: 2;
+	padding: 5%;
+}
